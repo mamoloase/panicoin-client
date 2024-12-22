@@ -1,0 +1,26 @@
+<template>
+    <svg :width="props.width" :height="props.height" :fill="props.fill" viewBox="0 0 24 24">
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+            <path
+                d="M19.6 21H4.4C3.1 21 2 19.9 2 18.6V14h2v4.2c0 .6.4.8 1 .8h14c.6 0 1-.4 1-1v-4h2v4.6c0 1.3-1.1 2.4-2.4 2.4z">
+            </path>
+            <path d="M15.3 12.1L13.4 14v-4c0-2 0-4.9 2.4-7-3.4.6-5.1 3.2-5.2 7v4l-1.9-1.9L7 13l5 5 5-5-1.7-.9z"></path>
+        </g>
+    </svg>
+
+</template>
+
+<script setup lang="ts">
+interface Props {
+    width?: string,
+    height?: string,
+    fill?: string,
+}
+const props = withDefaults(defineProps<Props>(), {
+    width: "20px",
+    height: "20px",
+    fill: "currentColor"
+});
+</script>

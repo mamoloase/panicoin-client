@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "core-js": "^3.8.3",
+    "lodash-es": "^4.17.21",
+    "neverthrow": "^6.2.2",
+    "vue": "^3.2.13",
+    "vue-router": "^4.3.2",
+    "vue3-lottie": "^3.3.0",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "typescript": "~4.5.5"
+  }
+}
